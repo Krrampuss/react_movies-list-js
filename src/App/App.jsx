@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 
 import './App.scss';
-import movies from './api/movies.json';
-import { MovieList } from './components/MovieList';
+import movies from '../api/movies.json';
+import { MovieList } from '../components/MovieList';
 
 export const App = () => (
   <>
