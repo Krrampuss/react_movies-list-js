@@ -12,12 +12,7 @@ export const MovieCard = ({ movie }) => (
       <div className="media">
         <div className="media-left">
           <figure className="image is-48x48">
-            <img
-              data-cy="MovieImage"
-              // eslint-disable-next-line max-len
-              src="https://m.media-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_.jpg"
-              alt="Film logo"
-            />
+            <img src="images/imdb-logo.jpeg" alt="imdb" />
           </figure>
         </div>
 
