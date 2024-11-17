@@ -2,19 +2,13 @@
 
 import './App.scss';
 import movies from './api/movies.json';
-import { MovieCard } from './components/MovieCard/MovieCard';
+import { MovieList } from './components/MovieList';
 
 export const App = () => (
   <>
     <div className="page">
       <div className="page-content">
-        <div className="movies">
-          <div className="card" data-cy="Movie">
-            {movies.map(movie => (
-              <MovieCard movie={movie} key={movie.imdbId} />
-            ))}
-          </div>
-        </div>
+        <MovieList movies={movies} />
       </div>
     </div>
     <div className="sidebar" data-cy="Sidebar">
